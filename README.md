@@ -222,4 +222,5 @@ Feedstock Maintainers
 * [@alexbaden](https://github.com/alexbaden/)
 * [@ienkovich](https://github.com/ienkovich/)
 * [@vlad-penkin](https://github.com/vlad-penkin/)
+* [@leshikus](https://github.com/leshikus/)
 
