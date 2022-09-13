@@ -1,7 +1,7 @@
 {% set version = "0.1.0" %}  # PEP 386
 {% set source_version = "0.1" %}
 {% set base_version = "0.1.0" %}
-{% set number = "2" %}
+{% set number = "3" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
@@ -43,6 +43,7 @@ outputs:
         - lib
         # path for libjvm.so searching
         - lib/server
+        - lib/jvm/lib/server
         # fixes "overlinking check failed"
         - {{ install_base }}/lib64
     requirements:
@@ -128,3 +129,4 @@ extra:
     - ienkovich
     - Garra1980
     - vlad-penkin
+    - leshikus
