@@ -5,7 +5,7 @@ Home: https://github.com/intel-ai/hdk
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdk-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdkf-feedstock/blob/main/LICENSE.txt)
 
 Summary: oneHDK
 
@@ -27,66 +27,66 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main">
           </a>
         </summary>
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.19python3.7.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.20python3.7.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.19python3.7.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.20python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.19python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.20python3.8.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.19python3.8.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.20python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.19python3.9.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.20python3.9.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.19python3.9.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.20python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.21python3.10.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.21python3.10.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version10cuda_compiler_versionNonecxx_compiler_version10numpy1.21python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.19python3.7.____cpython</td>
+              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.20python3.7.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.19python3.7.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.20python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.19python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.20python3.8.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.19python3.8.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.20python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.19python3.9.____cpython</td>
+              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.20python3.9.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.19python3.9.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.20python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.21python3.10.____cpython</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.21python3.10.____cpython" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdkf-feedstock?branchName=main&jobName=linux&configuration=linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9numpy1.21python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
@@ -222,5 +222,4 @@ Feedstock Maintainers
 * [@alexbaden](https://github.com/alexbaden/)
 * [@ienkovich](https://github.com/ienkovich/)
 * [@vlad-penkin](https://github.com/vlad-penkin/)
-* [@leshikus](https://github.com/leshikus/)
 
