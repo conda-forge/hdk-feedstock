@@ -17,7 +17,7 @@ package:
 
 source:
   url: https://github.com/intel-ai/hdk/releases/download/v{{ version }}/v{{ version }}.full.tar.gz
-  sha256: 3de25732870b384a0cfd28009d29999d44f0d8ea4f32add8d3ba810fa56eb0de
+  sha256: 3343012ecc940f1378ddb4abe95169568246a2b2ca1d612c79698ec231d5b126
 
 build:
   number: {{ number }}
