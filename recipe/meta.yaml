@@ -48,6 +48,10 @@ outputs:
         - {{ install_base }}/lib64
     requirements:
       build:
+        - python                                 # [build_platform != target_platform]
+        - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+        - cython                                 # [build_platform != target_platform]
+        - numpy                                  # [build_platform != target_platform]
         # c compiler is specified here to get run constraint pins correct, presumably..
         - {{ compiler('c') }}
         - {{ compiler('cxx') }}
