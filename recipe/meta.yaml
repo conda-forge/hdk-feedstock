@@ -1,5 +1,5 @@
-{% set version = "0.2.0" %}  # PEP 386
-{% set number = "1" %}
+{% set version = "0.3.0" %}  # PEP 386
+{% set number = "0" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
@@ -7,7 +7,7 @@
 {% set py_build_string_ext = "py{}{}_{}".format(CONDA_PY, build_string, build_ext) %}
 {% set py_build_string = "py{}{}".format(CONDA_PY, build_string) %}
 {% set install_base = "opt/hdk" %}
-{% set arrow_version = "6.*" %}
+{% set arrow_version = "8.*" %}
 {% set arrow_proc_version = "3.*" %}
 {% set llvm_version = "12" %}
 
@@ -16,8 +16,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/intel-ai/hdk/releases/download/v{{ version }}/v{{ version }}.full.tar.gz
-  sha256: 3343012ecc940f1378ddb4abe95169568246a2b2ca1d612c79698ec231d5b126
+  url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 4dec94f66983b2fb381219736a0e59f5ccb590c959595743313f1ad7cd6345c8
 
 build:
   number: {{ number }}
