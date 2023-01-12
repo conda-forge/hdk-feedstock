@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}  # PEP 386
+{% set version = "0.3.1" %}  # PEP 386
 {% set number = "0" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
@@ -17,7 +17,7 @@ package:
 
 source:
   url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 4dec94f66983b2fb381219736a0e59f5ccb590c959595743313f1ad7cd6345c8
+  sha256: 0475e145f3e2487f846ccc84868af6184fb3d1b012fe650cc793062d221c06e7
 
 build:
   number: {{ number }}
