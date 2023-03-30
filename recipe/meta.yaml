@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}  # PEP 386
+{% set version = "0.5.0" %}  # PEP 386
 {% set number = "0" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
@@ -16,10 +16,8 @@ package:
   version: {{ version }}
 
 source:
-#  git_url: https://github.com/intel-ai/hdk
-#  git_branch: release/v{{ version }}
   url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 78b2fed9bed27f996057ff4660a41e972b5642508eb06d72661d4a4e6e5ac6bd
+  sha256: e519342a7181e20b5799bcc2e308f932a7d82b1ee45e207a8a9cfa95e2cbfc50
 
 build:
   number: {{ number }}
@@ -33,7 +31,7 @@ outputs:
     script: build-hdk.sh
     build:
       string: {{ py_build_string_ext }}
-      skip: True  # [py not in (38, 39, 310)]
+      skip: True  # [py not in (38, 39, 310, 311)]
       missing_dso_whitelist:
         - '*/libcuda.*'  # [cuda_compiler_version not in (undefined, "None")]
         - '*/libjvm.so'
@@ -64,18 +62,18 @@ outputs:
         - make
         - maven
         - ninja
+        - tbb-devel
       host:
         - arrow-cpp ={{ arrow_version }}=*{{ build_ext }}
         - boost-cpp
-        - clangdev {{ llvm_version }}
         - cython
         - glog
-        - llvmdev {{ llvm_version }}
         - llvm {{ llvm_version }}
         - numpy
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
         - python
-        - tbb-devel
+        - folly 2022.11.07.00
+        - libsqlite 3.40.0
       run:
         - arrow-cpp-proc {{ arrow_proc_version }} {{ build_ext }}
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
@@ -84,6 +82,7 @@ outputs:
         - zlib
         - tbb
         - boost-cpp
+        - folly 2022.11.07.00
 
       run_constrained:
         - arrow-cpp-proc {{ arrow_proc_version }} {{ build_ext }}
