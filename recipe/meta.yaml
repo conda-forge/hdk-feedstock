@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}  # PEP 386
+{% set version = "0.5.0" %}  # PEP 386
 {% set number = "0" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
@@ -19,12 +19,12 @@ source:
 #  git_url: https://github.com/intel-ai/hdk
 #  git_branch: release/v{{ version }}
   url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 78b2fed9bed27f996057ff4660a41e972b5642508eb06d72661d4a4e6e5ac6bd
+  sha256: e519342a7181e20b5799bcc2e308f932a7d82b1ee45e207a8a9cfa95e2cbfc50
 
 build:
   number: {{ number }}
-  skip: True  # [cuda_compiler_version not in (undefined, "None", "11.0")]
-  skip: True  # [not linux64]
+  skip: true  # [cuda_compiler_version not in (undefined, "None", "11.0")]
+  skip: true  # [not linux64]
 
 outputs:
 
@@ -33,12 +33,11 @@ outputs:
     script: build-hdk.sh
     build:
       string: {{ py_build_string_ext }}
-      skip: True  # [py not in (38, 39, 310)]
+      skip: true  # [py not in (38, 39, 310)]
       missing_dso_whitelist:
         - '*/libcuda.*'  # [cuda_compiler_version not in (undefined, "None")]
         - '*/libjvm.so'
-      track_features:
-        {{ "- arrow-cuda" if cuda_enabled else "" }}
+      track_features: {{ "- arrow-cuda" if cuda_enabled else "" }}
       rpaths:
         - lib
         # path for libjvm.so searching
