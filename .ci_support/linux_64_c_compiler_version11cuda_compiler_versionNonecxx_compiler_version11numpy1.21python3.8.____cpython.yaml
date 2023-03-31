@@ -23,7 +23,7 @@ docker_image:
 glog:
 - '0.6'
 numpy:
-- '1.20'
+- '1.21'
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
