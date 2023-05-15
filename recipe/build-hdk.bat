@@ -3,7 +3,11 @@ setlocal
 if defined https_proxy (
     dir %USERPROFILE%\.m2 >nul 2>nul || mkdir %USERPROFILE%\.m2 >nul 2>nul || mkdir %USERPROFILE%\.m2
     set "proto=%https_proxy:://=" & set "rem=%"
+)
+if defined https_proxy (
     set "hostname=%rem::=" & set "portnumber=%"
+)
+if defined https_proxy (
     (
         echo ^<settings^>
         echo   ^<proxies^>
