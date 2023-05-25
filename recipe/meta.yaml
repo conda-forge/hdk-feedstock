@@ -1,6 +1,6 @@
 {% set version = "0.6.0" %}  # PEP 386
 
-{% set number = "0" %}
+{% set number = "1" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
@@ -21,7 +21,7 @@ source:
 #  git_branch: release/v{{ version }}
 #  git_rev: 798103ac37f9badd540b4f4508ca180162eeb654
   url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8f71fd71625fa8f59173ca2b232bb5ee8e9990fc73ceb9107742ca0a326a9c9f
+  sha256: 0396d5133666dee23fedb568acfbb49bfd8e36e149ed7e554a5bd9acda310a97
 
 build:
   number: {{ number }}
@@ -66,7 +66,7 @@ outputs:
       host:
         # If no version limit is specified for python then conda goes
         # crazy and is unable to create host env on windows.
-        - python >=3.8
+        - python {{ python }}
         - cython
         - numpy
         - tbb-devel
