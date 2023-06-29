@@ -7,9 +7,9 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cuda_compiler:
-- None
+- nvcc
 cuda_compiler_version:
-- None
+- '11.0'
 cxx_compiler:
 - vs2022
 fmt:
@@ -17,7 +17,7 @@ fmt:
 glog:
 - '0.6'
 numpy:
-- '1.23'
+- '1.21'
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
