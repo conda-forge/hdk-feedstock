@@ -17,7 +17,7 @@ fmt:
 glog:
 - '0.6'
 numpy:
-- '1.21'
+- '1.24'
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
@@ -25,7 +25,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.8.* *_cpython
+- 3.9.* *_cpython
 target_platform:
 - win-64
 tbb_devel:
