@@ -62,7 +62,6 @@ outputs:
         - llvmdev {{ llvm_version }}
         - make  # [not win]
         - maven
-        - vs2022_win-64  # [win]
         - level-zero-devel  # [not win]
         - pkg-config  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
