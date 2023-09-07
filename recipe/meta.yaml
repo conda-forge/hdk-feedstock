@@ -9,7 +9,6 @@
 {% set py_build_string = "py{}{}".format(CONDA_PY, build_string) %}
 {% set install_base = "opt/hdk" %}
 {% set arrow_version = "11.*" %}
-{% set arrow_proc_version = "3.*" %}
 {% set llvm_version = "14" %}
 
 package:
@@ -88,10 +87,9 @@ outputs:
         # windows specific.
         - boost-cpp >1.78.0  # [win]
         - llvm {{ llvm_version }}
-        - arrow-cpp ={{ arrow_version }}=*{{ build_ext }}
+        - libarrow ={{ arrow_version }}=*{{ build_ext }}
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
       run:
-        - arrow-cpp-proc {{ arrow_proc_version }} {{ build_ext }}
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
         - python
         - openjdk 17.*
@@ -101,9 +99,8 @@ outputs:
         - folly 2022.11.07.00  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
         - level-zero  # [not win]
-
       run_constrained:
-        - arrow-cpp-proc {{ arrow_proc_version }} {{ build_ext }}
+        - apache-arrow-proc =*={{ build_ext }}
         - cudatoolkit >=11.0  # [cuda_compiler_version not in (undefined, "None")]
 
     test:
