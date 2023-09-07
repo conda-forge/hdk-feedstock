@@ -25,7 +25,6 @@ source:
 
 build:
   number: {{ number }}
-  skip: True  # [cuda_compiler_version not in (undefined, "None", "11.0")]
   skip: True  # [not linux64 and not win64]
 
 outputs:
