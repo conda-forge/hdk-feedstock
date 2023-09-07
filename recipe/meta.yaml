@@ -8,7 +8,6 @@
 {% set py_build_string_ext = "py{}{}_{}".format(CONDA_PY, build_string, build_ext) %}
 {% set py_build_string = "py{}{}".format(CONDA_PY, build_string) %}
 {% set install_base = "opt/hdk" %}
-{% set arrow_version = "11.*" %}
 {% set llvm_version = "14" %}
 
 package:
@@ -87,10 +86,12 @@ outputs:
         # windows specific.
         - boost-cpp >1.78.0  # [win]
         - llvm {{ llvm_version }}
-        - libarrow ={{ arrow_version }}=*{{ build_ext }}
-        - pyarrow ={{ arrow_version }}=*{{ build_ext }}
+        # one libarrow to pick up global pinning, one to select variant
+        - libarrow
+        - libarrow =*=*{{ build_ext }}
+        - pyarrow
       run:
-        - pyarrow ={{ arrow_version }}=*{{ build_ext }}
+        - pyarrow =*=*{{ build_ext }}
         - python
         - openjdk 17.*
         - zlib
