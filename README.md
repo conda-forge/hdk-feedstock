@@ -34,115 +34,787 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.10.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.11.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.9.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compiler_versionNonecxx_compiler_version12python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow10.0.1python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.10.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.11.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.9.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version9cuda_compiler_version11.0cxx_compiler_version9python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow11.0.0python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilerNonecuda_compiler_versionNonepython3.10.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonepython3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilerNonecuda_compiler_versionNonepython3.11.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonepython3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilerNonecuda_compiler_versionNonepython3.8.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonepython3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilerNonecuda_compiler_versionNonepython3.9.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonepython3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow12python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilernvcccuda_compiler_version11.0python3.10.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.0python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilernvcccuda_compiler_version11.0python3.11.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.0python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilernvcccuda_compiler_version11.0python3.8.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.0python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_cuda_compilernvcccuda_compiler_version11.0python3.9.____cpython</td>
+              <td>linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.0python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version10cuda_compilernvcccuda_compiler_version11.2cxx_compiler_version10libarrow13python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow10.0.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow11.0.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow12python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version11cuda_compilernvcccuda_compiler_version11.8cxx_compiler_version11libarrow13python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow10.0.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow11.0.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow12python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version12libarrow13python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow10.0.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow11.0.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow12python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_c_compiler_version12cuda_compilercuda-nvcccuda_compiler_version12.0cxx_compiler_version12libarrow13python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow10.0.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow11.0.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow12python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilerNonecuda_compiler_versionNonelibarrow13python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow10.0.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow11.0.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow12python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.2libarrow13python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow10.0.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow11.0.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow12python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17220&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/hdk-feedstock?branchName=main&jobName=win&configuration=win%20win_64_cuda_compilernvcccuda_compiler_version11.8libarrow13python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
@@ -276,7 +948,6 @@ Feedstock Maintainers
 
 * [@Garra1980](https://github.com/Garra1980/)
 * [@alexbaden](https://github.com/alexbaden/)
-* [@ienkovich](https://github.com/ienkovich/)
 * [@leshikus](https://github.com/leshikus/)
 * [@vlad-penkin](https://github.com/vlad-penkin/)
 
