@@ -35,13 +35,16 @@ cmake -B build -S . ^
       -DCMAKE_INSTALL_PREFIX=%PREFIX:\=/% ^
       -DPython3_EXECUTABLE=%PYTHON:\=/% ^
       -G "Visual Studio 17 2022"
+if %ERRORLEVEL% neq 0 exit 1
 
 echo ---------------------------- AFTER CONFIGURE
 
 cmake --build build --config Release --parallel -- /verbosity:normal
+if %ERRORLEVEL% neq 0 exit 1
 
 echo ---------------------------- AFTER BUILD
 
 cmake --build build --config Release --target install -- /verbosity:normal
+if %ERRORLEVEL% neq 0 exit 1
 
 echo ---------------------------- AFTER INSTALL
