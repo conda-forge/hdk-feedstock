@@ -66,6 +66,7 @@ outputs:
         - level-zero-devel  # [not win]
         - pkg-config  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
+        - libllvmspirv {{ llvm_version }} # [not win]
       host:
         # If no version limit is specified for python then conda goes
         # crazy and is unable to create host env on windows.
