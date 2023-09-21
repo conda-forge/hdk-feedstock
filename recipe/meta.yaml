@@ -23,17 +23,16 @@ source:
 
 build:
   number: {{ number }}
-  skip: True  # [not linux64 and not win64]
+  skip: true  # [not (linux64 or win64)]
 
 outputs:
 
   - name: pyhdk
     version: {{ version }}
-    script: build-hdk.sh  # [not win]
+    script: build-hdk.sh   # [not win]
     script: build-hdk.bat  # [win]
     build:
       string: {{ py_build_string_ext }}
-      skip: True  # [py not in (38, 39, 310, 311)]
       missing_dso_whitelist:
         - '*/libcuda.*'  # [cuda_compiler_version not in (undefined, "None")]
         - '*/libjvm.so'
@@ -63,9 +62,7 @@ outputs:
         - pkg-config  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
       host:
-        # If no version limit is specified for python then conda goes
-        # crazy and is unable to create host env on windows.
-        - python {{ python }}
+        - python
         - cython
         - numpy
         - tbb-devel
