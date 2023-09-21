@@ -10,6 +10,9 @@
 {% set install_base = "opt/hdk" %}
 {% set llvm_version = "14" %}
 
+# get smithy to play ball...
+{% set libarrow = "13" if libarrow is undefined else libarrow %}
+
 package:
   name: hdk
   version: {{ version }}
@@ -24,6 +27,11 @@ source:
 build:
   number: {{ number }}
   skip: true  # [not (linux64 or win64)]
+  # some weird header interaction, but only on windows, and only
+  # limited to oldest python with newest arrow --> skip it
+  {% if libarrow|int > 12 %}
+  skip: true  # [win and py==38]
+  {% endif %}
 
 outputs:
 
