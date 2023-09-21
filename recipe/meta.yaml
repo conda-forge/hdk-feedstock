@@ -18,8 +18,8 @@ package:
 
 source:
   git_url: https://github.com/intel-ai/hdk
-#  git_branch: release/v{{ version }}
-  git_rev: 0517d3c
+  git_branch: release/v{{ version }}
+#  git_rev: 0517d3c
 #  url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
 #  sha256: 26288c68212b93086911e1e172f7177f249876b2acde6c15be4a026f3c21d1f0
 
