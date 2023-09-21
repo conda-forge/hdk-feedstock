@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}  # PEP 386
+{% set version = "0.8.0" %}  # PEP 386
 
 {% set number = "0" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
@@ -10,7 +10,7 @@
 {% set install_base = "opt/hdk" %}
 {% set arrow_version = "11.*" %}
 {% set arrow_proc_version = "3.*" %}
-{% set llvm_version = "14" %}
+{% set llvm_version = "15" %}
 
 package:
   name: hdk
@@ -21,7 +21,7 @@ source:
 #  git_branch: release/v{{ version }}
 #  git_rev: 798103ac37f9badd540b4f4508ca180162eeb654
   url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 98e8fbcff9c0e938076d004c84bceb4e8abf154c74dbe9d53cb0235ec7b89ac7
+  sha256: 26288c68212b93086911e1e172f7177f249876b2acde6c15be4a026f3c21d1f0
 
 build:
   number: {{ number }}
@@ -96,7 +96,7 @@ outputs:
         - arrow-cpp-proc {{ arrow_proc_version }} {{ build_ext }}
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
         - python
-        - openjdk 17.*
+        - openjdk 20.*
         - zlib
         - tbb
         - boost-cpp
