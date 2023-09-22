@@ -94,13 +94,13 @@ outputs:
         - arrow-cpp ={{ arrow_version }}=*{{ build_ext }}
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
         - zlib
+        - zstd
       run:
         - arrow-cpp-proc {{ arrow_proc_version }} {{ build_ext }}
         - pyarrow ={{ arrow_version }}=*{{ build_ext }}
         - python
         - openjdk 20.*
         - zlib
-        - zstd
         - tbb
         - boost-cpp
         - folly 2022.11.07.00  # [not win]
