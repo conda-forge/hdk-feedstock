@@ -21,7 +21,7 @@ source:
 #  git_branch: release/v{{ version }}
 #  git_rev: 798103ac37f9badd540b4f4508ca180162eeb654
   url: https://github.com/intel-ai/hdk/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 26288c68212b93086911e1e172f7177f249876b2acde6c15be4a026f3c21d1f0
+  sha256: 0314c7ad990b1f3072f9058e991915b5f1d6d3240aaf04ffe518d68087178675
 
 build:
   number: {{ number }}
