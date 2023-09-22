@@ -100,6 +100,7 @@ outputs:
         - python
         - openjdk 20.*
         - zlib
+        - zstd
         - tbb
         - boost-cpp
         - folly 2022.11.07.00  # [not win]
