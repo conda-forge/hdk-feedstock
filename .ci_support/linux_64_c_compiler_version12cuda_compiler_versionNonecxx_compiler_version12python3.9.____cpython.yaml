@@ -42,3 +42,5 @@ zip_keys:
   - docker_image
 - - python
   - numpy
+zlib:
+- '1.2'
