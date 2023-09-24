@@ -1,6 +1,6 @@
 {% set version = "0.8.0" %}  # PEP 386
 
-{% set number = "0" %}
+{% set number = "1" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
@@ -78,7 +78,7 @@ outputs:
         # Folly and fmt are mutially exclusive on linux but fmt is
         # requred on windows.
         - fmt  # [win]
-        - folly 2022.11.07.00  # [not win]
+        - folly >=2022.11.07.00  # [not win]
         - libsqlite 3.40.0  # [not win]
         - boost-cpp  # [not win]
         # With boost-cpp 1.78.0 cmake on windows doesn't find boost
@@ -102,7 +102,7 @@ outputs:
         - zlib
         - tbb
         - boost-cpp
-        - folly 2022.11.07.00  # [not win]
+        - folly >=2022.11.07.00  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
         - level-zero  # [not win]
 
