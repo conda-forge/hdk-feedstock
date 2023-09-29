@@ -92,7 +92,7 @@ outputs:
         # upsets MS linker and breaks pyhdk installation. On Linux
         # folly version needs version 1.78.0 so this is currently
         # windows specific.
-        - boost-cpp >1.78.0  # [win]
+        - libboost-devel  # [win]
         - llvm {{ llvm_version }}
         # one libarrow to pick up global pinning, one to select variant
         - libarrow
@@ -105,7 +105,7 @@ outputs:
         - openjdk 20.*
         - zlib
         - tbb
-        - boost-cpp
+        - boost-cpp   # [not win]
         - folly >=2022.11.07.00  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
         - level-zero  # [not win]
