@@ -83,7 +83,6 @@ outputs:
         # requred on windows.
         - fmt  # [win]
         - folly >=2022.11.07.00  # [not win]
-        - libsqlite 3.40.0
         - boost-cpp  # [not win]
         # With boost-cpp 1.78.0 cmake on windows doesn't find boost
         # libraries like boost::log which is necessary for linking
@@ -98,6 +97,9 @@ outputs:
         # one libarrow to pick up global pinning, one to select variant
         - libarrow
         - libarrow =*=*{{ build_ext }}
+        # same here; one for pinning, one for additionally specifying lower bound
+        - libsqlite
+        - libsqlite >=3.40
         - pyarrow
         - zlib
       run:
