@@ -16,6 +16,8 @@ glog:
 - '0.6'
 libarrow:
 - 11.0.0
+libsqlite:
+- '3'
 numpy:
 - '1.22'
 pin_run_as_build:
@@ -23,7 +25,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.9.* *_cpython
 target_platform:
 - win-64
 tbb_devel:

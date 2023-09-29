@@ -5,9 +5,9 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cuda_compiler:
-- nvcc
+- None
 cuda_compiler_version:
-- '11.2'
+- None
 cxx_compiler:
 - vs2022
 fmt:
@@ -15,7 +15,9 @@ fmt:
 glog:
 - '0.6'
 libarrow:
-- 11.0.0
+- '12'
+libsqlite:
+- '3'
 numpy:
 - '1.22'
 pin_run_as_build:
@@ -23,7 +25,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.8.* *_cpython
+- 3.9.* *_cpython
 target_platform:
 - win-64
 tbb_devel:

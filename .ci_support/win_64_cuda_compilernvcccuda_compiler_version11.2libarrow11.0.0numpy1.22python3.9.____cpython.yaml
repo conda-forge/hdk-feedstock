@@ -15,7 +15,9 @@ fmt:
 glog:
 - '0.6'
 libarrow:
-- '12'
+- 11.0.0
+libsqlite:
+- '3'
 numpy:
 - '1.22'
 pin_run_as_build:

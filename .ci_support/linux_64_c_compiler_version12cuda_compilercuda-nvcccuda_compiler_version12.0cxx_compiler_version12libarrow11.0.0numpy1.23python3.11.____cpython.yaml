@@ -26,6 +26,8 @@ glog:
 - '0.6'
 libarrow:
 - 11.0.0
+libsqlite:
+- '3'
 numpy:
 - '1.23'
 pin_run_as_build:
