@@ -82,7 +82,7 @@ outputs:
         # requred on windows.
         - fmt  # [win]
         - folly >=2022.11.07.00  # [not win]
-        - libsqlite 3.40.0  # [not win]
+        - libsqlite 3.40.0
         - boost-cpp  # [not win]
         # With boost-cpp 1.78.0 cmake on windows doesn't find boost
         # libraries like boost::log which is necessary for linking
