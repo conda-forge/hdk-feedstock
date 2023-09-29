@@ -77,6 +77,7 @@ outputs:
         - cython
         - numpy
         - tbb-devel
+        - gflags  # [unix]
         - glog
         # Folly and fmt are mutially exclusive on linux but fmt is
         # requred on windows.
