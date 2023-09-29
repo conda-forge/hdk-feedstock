@@ -27,6 +27,8 @@ source:
 build:
   number: {{ number }}
   skip: true  # [not (linux64 or win64)]
+  # hdk only support arrow >11
+  skip: true  # [libarrow == "10.0.1"]
   # some weird header interaction, but only on windows, and only
   # limited to oldest python with newest arrow --> skip it
   {% if libarrow|int > 12 %}
