@@ -29,11 +29,6 @@ build:
   skip: true  # [not (linux64 or win64)]
   # hdk only support arrow >11
   skip: true  # [libarrow == "10.0.1"]
-  # some weird header interaction, but only on windows, and only
-  # limited to oldest python with newest arrow --> skip it
-  {% if libarrow|int > 12 %}
-  skip: true  # [win and py==38]
-  {% endif %}
 
 outputs:
 
@@ -43,6 +38,11 @@ outputs:
     script: build-hdk.bat  # [win]
     build:
       string: {{ py_build_string_ext }}
+      # some weird header interaction, but only on windows, and only
+      # limited to oldest python with newest arrow --> skip it
+      {% if libarrow.split(".")[0]|int > 12 %}
+      skip: true  # [win and py==38]
+      {% endif %}
       missing_dso_whitelist:
         - '*/libcuda.*'  # [cuda_compiler_version not in (undefined, "None")]
         - '*/libjvm.so'
