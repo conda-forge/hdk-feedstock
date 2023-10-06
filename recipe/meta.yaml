@@ -83,16 +83,8 @@ outputs:
         # requred on windows.
         - fmt  # [win]
         - folly >=2022.11.07.00  # [not win]
-        - libboost-devel
-        # With libboost-devel 1.78.0 cmake on windows doesn't find boost
-        # libraries like boost::log which is necessary for linking
-        # pyhdk stuff, therefore cmake expression
-        # $<TARGET_FILE_DIR:${Boost_LOG_LIBRARY}> results in empty
-        # string which results in /LIBPATH: with empty argument which
-        # upsets MS linker and breaks pyhdk installation. On Linux
-        # folly version needs version 1.78.0 so this is currently
-        # windows specific.
         - llvm {{ llvm_version }}
+        - libboost-devel
         # one libarrow to pick up global pinning, one to select variant
         - libarrow
         - libarrow =*=*{{ build_ext }}
