@@ -1,6 +1,6 @@
 {% set version = "0.8.0" %}  # PEP 386
 
-{% set number = "1" %}
+{% set number = "2" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
