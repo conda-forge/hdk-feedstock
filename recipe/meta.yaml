@@ -1,6 +1,6 @@
 {% set version = "0.8.0" %}  # PEP 386
 
-{% set number = "1" %}
+{% set number = "2" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
@@ -29,11 +29,6 @@ build:
   skip: true  # [not (linux64 or win64)]
   # hdk only support arrow >11
   skip: true  # [libarrow == "10.0.1"]
-  # some weird header interaction, but only on windows, and only
-  # limited to oldest python with newest arrow --> skip it
-  {% if libarrow|int > 12 %}
-  skip: true  # [win and py==38]
-  {% endif %}
 
 outputs:
 
@@ -43,6 +38,11 @@ outputs:
     script: build-hdk.bat  # [win]
     build:
       string: {{ py_build_string_ext }}
+      # some weird header interaction, but only on windows, and only
+      # limited to oldest python with newest arrow --> skip it
+      {% if libarrow.split(".")[0]|int > 12 %}
+      skip: true  # [win and py==38]
+      {% endif %}
       missing_dso_whitelist:
         - '*/libcuda.*'  # [cuda_compiler_version not in (undefined, "None")]
         - '*/libjvm.so'
@@ -83,17 +83,8 @@ outputs:
         # requred on windows.
         - fmt  # [win]
         - folly >=2022.11.07.00  # [not win]
-        - boost-cpp  # [not win]
-        # With boost-cpp 1.78.0 cmake on windows doesn't find boost
-        # libraries like boost::log which is necessary for linking
-        # pyhdk stuff, therefore cmake expression
-        # $<TARGET_FILE_DIR:${Boost_LOG_LIBRARY}> results in empty
-        # string which results in /LIBPATH: with empty argument which
-        # upsets MS linker and breaks pyhdk installation. On Linux
-        # folly version needs version 1.78.0 so this is currently
-        # windows specific.
-        - libboost-devel  # [win]
         - llvm {{ llvm_version }}
+        - libboost-devel
         # one libarrow to pick up global pinning, one to select variant
         - libarrow
         - libarrow =*=*{{ build_ext }}
@@ -108,7 +99,6 @@ outputs:
         - openjdk >=11
         - zlib
         - tbb
-        - boost-cpp   # [not win]
         - folly >=2022.11.07.00  # [not win]
         - llvm-spirv {{ llvm_version }}  # [not win]
         - level-zero  # [not win]

@@ -15,7 +15,9 @@ fmt:
 glog:
 - '0.6'
 libarrow:
-- '13'
+- 11.0.0
+libboost_devel:
+- '1.82'
 libsqlite:
 - '3'
 numpy:
