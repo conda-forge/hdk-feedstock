@@ -1,6 +1,6 @@
 {% set version = "0.9.0" %}  # PEP 386
 
-{% set number = "2" %}
+{% set number = "3" %}
 {% set cuda_enabled = cuda_compiler_version is not undefined and cuda_compiler_version == '11.0' %}
 {% set build_ext = "cuda" if cuda_enabled else "cpu" %}
 {% set build_string = "h{}_{}".format(PKG_HASH, number) %}
@@ -96,7 +96,7 @@ outputs:
       run:
         - pyarrow =*=*{{ build_ext }}
         - python
-        - openjdk >=11
+        - openjdk >=17
         - zlib
         - tbb
         - folly >=2022.11.07.00  # [not win]
