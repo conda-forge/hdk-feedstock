@@ -96,7 +96,7 @@ outputs:
       run:
         - pyarrow =*=*{{ build_ext }}
         - python
-        - openjdk >=11
+        - openjdk >=17
         - zlib
         - tbb
         - folly >=2022.11.07.00  # [not win]
