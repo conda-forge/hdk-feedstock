@@ -60,6 +60,7 @@ outputs:
         - cmake
         # c compiler is specified here to get run constraint pins correct, presumably..
         - {{ compiler('c') }}
+        - {{ stdlib("c") }}
         - {{ compiler('cxx') }}
         - {{ compiler("cuda") }}  # [cuda_compiler_version not in (undefined, "None")]
         - clangdev {{ llvm_version }}
